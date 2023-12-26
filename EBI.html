@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es" dir="ltr" charset="UTF-8">
+<!--No visible-->
+<head>
+    <meta charset="UTF-8" />
+    <title>Mi página web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Página de ejemplo sobre aprendizaje en HTML" />
+</head>
+<!--Estructura semántica-->
+<body>
+    <h1>Formularios en HTML</h1>
+    <h2>Datos personales</h2>
+        <label for="name">Nombre:</label>
+        <input id="name" name="name"> </br>
+        <label for="email">Email</label>
+        <input id="email" name="email" required placeholder="exaple@ejemplo.com"> </br>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone">
+        <fieldset>
+            <legend><h2>Género</h2></legend>
+            <input id="masculino" type="radio" name="genero">
+            <label for="masculino">masculino</label></br>
+            <input id="femenino" type="radio" name="genero"> 
+            <label for="femenino">femenino</label></br>
+            <input id="otro" type="radio" name="genero">
+            <label for="otro">otro</label>
+        </fieldset>
+        <fieldset>
+            <legend><h2>Preferencias</h2></legend>
+            <input id="masculino" type="checkbox">
+            <label for="masculino">masculino</label></br>
+            <input id="femenino" type="checkbox"> 
+            <label for="femenino">femenino</label></br>
+            <input id="otro" type="checkbox">
+            <label for="otro">otro</label>
+        </fieldset>
+        <h2>Comentarios</h2>
+        <textarea cols="40" rows="10"placeholder="Ingrese texto"></textarea> </textarea>
+</body>
